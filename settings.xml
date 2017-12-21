@@ -15,7 +15,7 @@
             <!--就需要将该元素设置成central。这必须和中央仓库的id central完全一致。 -->
             <mirrorOf>*</mirrorOf>
             <!--该镜像的URL。构建系统会优先考虑使用该URL，而非使用默认的服务器URL。  -->
-            <url>http://10.2.53.8:8088/repository/maven-public/</url>
+            <url>http://maven.aliyun.com/nexus/content/groups/public</url>
         </mirror>
     </mirrors>
 </settings>
